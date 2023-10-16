@@ -1,0 +1,111 @@
+* {
+    background-color: rgb(120, 149, 203);
+    font-family: Poppins, sans-serif;
+}
+
+body {
+     margin: 0px
+}
+
+
+.title {
+    color: rgb(58, 7, 139);
+    text-shadow: 1px 2px 2px rgb(11, 34, 49);
+    font-size: 60px;
+}
+
+ a {
+    text-decoration: none;
+}
+
+table.info-table {
+    width:"550"; 
+    display: inline-block;
+    text-align: center;  
+    color: rgb(2, 24, 66);
+    font-size: 25px;
+}
+
+h2 {
+    padding: 7px;
+    margin: 7px;
+    border-radius: 30px;
+    background-color: rgb(251, 238, 172);
+    box-shadow: 4px 4px 8px rgb(97, 84, 17);
+}
+ 
+ul.skills, h3 {
+    width: 800px;
+    background-color: rgba(7, 46, 71, 0.5);
+    color: rgb(12, 8, 61);
+    text-shadow: 2px 2px 2px  rgba(22, 69, 99, 0.3);
+    font-size: 25px;
+}
+
+ul.skills {
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgb(0, 0, 0); 
+    position: relative;
+    left: 945px;
+    bottom: 330px;    
+}
+
+ul.skills :first-child{
+border-top-right-radius: 10px;
+}
+
+ul.skills :last-child{
+    border-bottom-right-radius: 10px;
+}
+
+table.contacts {
+    display: inline;
+    position: relative;
+    bottom: 260px;
+}
+
+table.contacts tr, a.link{
+    display: inline;
+    margin: 20px 70px;
+    color:rgb(12, 8, 61);
+}
+
+div.projects {
+    height: 450px;
+    position: relative;
+    bottom: 270px;
+    background-color:  rgba(7, 46, 71, 0.5);
+    box-shadow: 4px 4px 8px rgb(0, 0, 0); ;
+    font-size: 25px;
+}
+
+div.projects h1 {
+    color: rgb(12, 8, 61);
+}
+
+div.projects img{
+    position: relative;
+    left: 35px;
+}
+
+div.backup-links {
+    position: relative;
+    bottom: 100px;
+    color: rgb(12, 8, 61);
+}
+
+div.backup-links a {
+    color: rgb(12, 8, 61);
+    background-color: (120, 149, 203)
+    
+}
+
+/**/
+h2.github {
+    max-width: 700px;
+    margin: 0px auto;
+    background-color: rgba(247, 240, 206, 0.4);
+    color: rgb(17, 31, 41);
+    box-shadow: 4px 4px 8px rgb(97, 84, 17);
+     
+}
